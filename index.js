@@ -13,9 +13,8 @@ var year=array[2];
 if(isNaN(year)){
   console.log("\nYour data is not valid")
 }else{
-if(year % 2==0){
+if(year % 4==0){
    if(year %100==0){
-     console.log("\nYour birth year isn't leap year")
      if(year %400==0){
        console.log("\nYour birth year is a leap year")
      }else{
@@ -25,6 +24,6 @@ if(year % 2==0){
       console.log("\nYour birth year is a leap year")
     }
 }else{
-  console.log("\Your birth year isn't leap year")
+  console.log("\Your birth year isnot a leap year")
 }
 }
